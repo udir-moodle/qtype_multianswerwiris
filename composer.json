@@ -1,0 +1,17 @@
+{
+  "name": "udir-moodle/qtype_multianswerwiris",
+  "description": "Wiris Quizzes Embedded answer (Cloze) question type — Composer/Packagist mirror of the Moodle plugin qtype_multianswerwiris, auto-updated from the Moodle plugins directory.",
+  "type": "moodle-qtype",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://moodle.org/plugins/qtype_multianswerwiris",
+  "require": {
+    "composer/installers": "~1.0 || ~2.0",
+    "moodle/moodle": "4.4.* || 4.5.* || 5.0.* || 5.1.* || 5.2.*"
+  },
+  "extra": {
+    "installer-name": "multianswerwiris",
+    "moodle-composer": {
+      "component": "qtype_multianswerwiris"
+    }
+  }
+}
